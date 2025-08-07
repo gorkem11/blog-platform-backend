@@ -31,7 +31,7 @@ src/
 └── index.ts            # Express application entry point
 
 
-
+---
 # Blog Platformu Backend
 
 ## Proje Amacı 
