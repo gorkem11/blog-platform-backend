@@ -1,3 +1,37 @@
+# Blog Platform Backend
+
+## Project Purpose
+This project is a simple **Blog Platform Backend API** developed using **Node.js**, **Express**, and **TypeScript**.  
+It demonstrates the concept of a **relational data model** by creating a relationship between **Post** and **Comment** entities.  
+The data is stored **in-memory**.
+
+---
+
+## Features
+- Create, list, and retrieve single **Post**
+- Add and list **Comments** (linked to a Post)
+- **TypeScript** type safety
+- Modular structure with **Express Router**
+- Unique ID generation with **UUID**
+- Proper HTTP responses (400, 404) for invalid IDs
+- **Postman** collection support for testing
+
+---
+
+## Project Structure
+
+```plaintext
+src/
+├── data/
+│   └── db.ts           # In-memory data stores (posts, comments)
+├── models/
+│   └── types.ts        # TypeScript interface definitions
+├── routes/
+│   └── postRoutes.ts   # Post & Comment endpoints
+└── index.ts            # Express application entry point
+
+
+
 # Blog Platformu Backend
 
 ## Proje Amacı 
